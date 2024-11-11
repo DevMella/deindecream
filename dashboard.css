@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, sans-serif;
+}
+.top {
+    background-color: #4A9390;
+    font-size: 17px;
+}
+.ala {
+    background-image: url(https://www.deinde.com/cdn/shop/files/24_PH_FALL_BBM_FULLBLEED_7x6_09c7b174-67ba-4cd0-aba3-f282bf36a56d_720x.jpg?v=1727738884);
+    width: 100%;
+    height: 85vh;
+    padding-top: 170px;
+}
+.ama {
+    background-image: url(https://www.deinde.com/cdn/shop/files/24_PH_FALL_BBM_ZOOM_7x6_7601cc1e-b5ba-4012-b61a-025c4fe1c469_720x.jpg?v=1727738884);
+    width: 100%;
+    height: 85vh;
+    background-position: center;
+    position: relative;
+}
+.ala h2 {
+    font-family: "Roboto", sans-serif;
+    color: #275c5a;
+    font-size: 50px;
+}
+.ala p {
+    color: #275c5a;
+    font-weight: 600;
+    font-size: 16px;
+}
+.bat {
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #F0F55D;
+    font-size: 21px;
+    font-weight: 700;
+    color: #275c5a;
+    transition: .7s;
+}
+.bat:hover {
+    background-color: #275c5a;
+    color: white;
+}
+.pat {
+    position: absolute;
+    padding: 0px 30px 0px 30px;
+}
+.navbar {
+    background: #FFFFFF !important;
+    border-radius: 50px;
+    width: 100%;
+    border: 1px solid #4A9390;
+    z-index: 100 !important;
+    transition: all 0.3s ease;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0; 
+    border: none;
+    margin-top: -1px !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+.navbar-brand {
+    color: #275c5a;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+.nav-link {
+    font-size: 17px;
+}
+.ele{
+    width: 100%;
+    background-color: #275c5a;
+    color: white;
+    padding: 60px 0px 60px 0px;
+}
+.can{
+    color: #F0F55D;
+    font-size: 80px;
+}
+.cam h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.min{
+    background: linear-gradient(to right,#275c5a,white);
+    padding: 20px;
+    border-radius: 6px;
+}
+.taa{
+    width: 100%;
+    background-image: url(https://www.deinde.com/cdn/shop/files/23_PH_NPL_MODEL_CLAVICAL_14x8_v2_720x.jpg?v=1700002425);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0px 30px 0px;
+}
+.rrr h1{
+    font-family: "Londrina Sketch", sans-serif;
+    font-size: 160px;
+}
+.rrr h4{
+    font-weight: 600;
+}
+.image {
+    width: 200px;
+    height: 230px;
+}
+.image img{
+    height: 200px;
+    object-fit: cover;
+    margin-left: 25px;
+}
+.mas {
+    position: relative; 
+    background-color: white;
+    color: #275c5a;
+    border-radius: 8px;
+    transition: .5s;
+}
+.did{
+    padding: 20px;
+    width: 100%;
+}
+.hov {
+    display: none;
+    background-image: url(https://i.pinimg.com/736x/4f/ec/b5/4fecb531a6fbec88178694fa7590983f.jpg);
+    width: 100%;
+    border-radius: 8px;
+    position: absolute;
+    top: -1px;
+    font-weight: 800;
+    color: #275c5a;
+    z-index: 100;
+    padding: 10px; 
+}
+.mas:hover .hov {
+    display: block; 
+}
+.amm h5{
+    font-weight: 700;
+}
+.bats{
+    width: 100%;
+    background-color: #F0F55D;
+    color: #275c5a;
+    border: none;
+    outline: none;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 43px;
+    margin-bottom: 50px;
+}
+.bats:hover{
+    background-color: #275c5a;
+    color: #F0F55D;
+}
+@media (max-width: 765px) {
+    .pat {
+        padding: 0px 10px 0px 10px !important;
+    }
+    .ama,.ala {
+        height: 50vh !important;
+        background-position: left;
+    }
+    .ala h2{
+        font-size: 38px;
+    }
+    .ala{
+        padding-top: 40px;
+    }
+    .ele{
+        padding: 30px 0px 30px 0px;
+    }
+    .rrr h1{
+        font-size: 70px;
+    }
+    .rrr h4{
+        font-size: 17px;
+    }
+    .asa{
+        margin-top: 30px;
+    }
+}
